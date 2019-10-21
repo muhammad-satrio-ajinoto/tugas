@@ -16,10 +16,10 @@ public class EKSPO {
         Scanner input = new Scanner(System.in);
         
        System.out.println("Masukkan angka : ");
-       float angka = input.nextInt();
+       double angka = input.nextInt();
        
         System.out.println("Masukkan angka 2 : ");
-       float angka2 = input.nextInt();
+       double angka2 = input.nextInt();
        
        System.out.println("Hasil : " + (angka + angka2));
 
